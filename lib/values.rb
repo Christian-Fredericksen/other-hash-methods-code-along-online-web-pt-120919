@@ -16,5 +16,6 @@ def get_the_values(groceries)
   #   new_values << values 
   # end 
   # new_values.flatten
-  groceries.values 
+  groceries.values.flatten
+  
 end
